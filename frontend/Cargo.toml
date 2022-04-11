@@ -10,7 +10,7 @@ default = ["zoon/panic_hook"]
 
 [dependencies]
 
-zoon = { git = "https://github.com/MoonZoon/MoonZoon", branch = "feat/profiling" }
+zoon = { git = "https://github.com/MoonZoon/MoonZoon", rev = "d80b1faec1b54fc702149f821825ddb419b51c27" }
 console_log = { version = "0.2", features = ["wasm-bindgen", "color"] }
 log-panics = "2"
 fern = "0.6"
