@@ -37,4 +37,25 @@ A couple of PointerEvents are missing
 Some of these will be necessary for notification of entering and leaving dragable areas. Anyway, just having half an API
 implemented is wierd. See https://developer.mozilla.org/en-US/docs/Web/API/Pointer_event
 
+## Install & Run
+
+1
+```
+cargo install mzoon --git https://github.com/MoonZoon/MoonZoon --rev d80b1faec1b54fc702149f821825ddb419b51c27 --root cargo_install_root --locked
+```
+
+2
+```
+mv cargo_install_root/bin/mzoon mzoon
+# or
+move cargo_install_root/bin/mzoon mzoon
+```
+
+3
+```
+./mzoon start -o
+# or
+mzoon start -o
+```
+
  
